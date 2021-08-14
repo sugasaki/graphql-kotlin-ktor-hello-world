@@ -1,7 +1,7 @@
 package com.example.plugins
 
-import com.example.`graphql-kotlin`.KtorServer
-import io.ktor.application.*
+import com.example.graphqlkotlin.KtorServer
+import io.ktor.application.* // ktlint-disable no-wildcard-imports
 import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.routing.*

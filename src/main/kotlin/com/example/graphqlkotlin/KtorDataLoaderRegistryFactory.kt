@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.`graphql-kotlin`
+package com.example.graphqlkotlin
 
-import com.expediagroup.graphql.examples.server.ktor.schema.dataloaders.BookDataLoader
-import com.expediagroup.graphql.examples.server.ktor.schema.dataloaders.CourseDataLoader
-import com.expediagroup.graphql.examples.server.ktor.schema.dataloaders.UniversityDataLoader
+import com.example.schema.dataloaders.BookDataLoader
+import com.example.schema.dataloaders.CourseDataLoader
+import com.example.schema.dataloaders.UniversityDataLoader
 import com.expediagroup.graphql.server.execution.DataLoaderRegistryFactory
 import org.dataloader.DataLoaderRegistry
 

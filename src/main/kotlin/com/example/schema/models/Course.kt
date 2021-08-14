@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.expediagroup.graphql.examples.server.ktor.schema.models
+package com.example.schema.models
 
-import com.expediagroup.graphql.examples.server.ktor.schema.dataloaders.BookDataLoader
-import com.expediagroup.graphql.examples.server.ktor.schema.dataloaders.UniversityDataLoader
+import com.example.schema.dataloaders.BookDataLoader
+import com.example.schema.dataloaders.UniversityDataLoader
 import com.expediagroup.graphql.server.extensions.getValueFromDataLoader
 import graphql.schema.DataFetchingEnvironment
 import java.util.concurrent.CompletableFuture

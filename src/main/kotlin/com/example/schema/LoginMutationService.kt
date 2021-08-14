@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.expediagroup.graphql.examples.server.ktor.schema
+package com.example.schema
 
-import com.expediagroup.graphql.examples.server.ktor.schema.models.User
+import com.example.schema.models.User
 import com.expediagroup.graphql.server.operations.Mutation
 
 data class AuthPayload(val token: String? = null, val user: User? = null)

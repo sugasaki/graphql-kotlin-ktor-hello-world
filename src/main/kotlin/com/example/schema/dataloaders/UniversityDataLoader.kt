@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.expediagroup.graphql.examples.server.ktor.schema.dataloaders
+package com.example.schema.dataloaders
 
-import com.expediagroup.graphql.examples.server.ktor.schema.models.University
+import com.example.schema.models.University
 import com.expediagroup.graphql.server.execution.KotlinDataLoader
 import kotlinx.coroutines.runBlocking
 import org.dataloader.DataLoader

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.`graphql-kotlin`
+package com.example.graphqlkotlin
 
 import io.ktor.application.Application
 import io.ktor.application.call

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.`graphql-kotlin`
+package com.example.graphqlkotlin
 
-import com.expediagroup.graphql.examples.server.ktor.schema.BookQueryService
-import com.expediagroup.graphql.examples.server.ktor.schema.CourseQueryService
-import com.expediagroup.graphql.examples.server.ktor.schema.HelloQueryService
-import com.expediagroup.graphql.examples.server.ktor.schema.LoginMutationService
-import com.expediagroup.graphql.examples.server.ktor.schema.UniversityQueryService
+import com.example.schema.BookQueryService
+import com.example.schema.CourseQueryService
+import com.example.schema.HelloQueryService
+import com.example.schema.LoginMutationService
+import com.example.schema.UniversityQueryService
 import com.expediagroup.graphql.generator.SchemaGeneratorConfig
 import com.expediagroup.graphql.generator.TopLevelObject
 import com.expediagroup.graphql.generator.toSchema

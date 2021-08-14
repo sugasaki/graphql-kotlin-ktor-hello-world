@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.expediagroup.graphql.examples.server.ktor.schema
+package com.example.schema
 
-import com.expediagroup.graphql.examples.server.ktor.schema.models.Course
+import com.example.schema.models.Course
 import com.expediagroup.graphql.server.operations.Query
 
 class CourseQueryService : Query {

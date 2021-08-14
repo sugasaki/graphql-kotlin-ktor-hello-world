@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.`graphql-kotlin`
+package com.example.graphqlkotlin
 
 import com.expediagroup.graphql.server.execution.GraphQLRequestParser
 import com.expediagroup.graphql.server.types.GraphQLServerRequest

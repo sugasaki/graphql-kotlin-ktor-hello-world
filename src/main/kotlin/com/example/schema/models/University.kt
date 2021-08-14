@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.expediagroup.graphql.examples.server.ktor.schema.models
+package com.example.schema.models
 
 import graphql.GraphQLException
 

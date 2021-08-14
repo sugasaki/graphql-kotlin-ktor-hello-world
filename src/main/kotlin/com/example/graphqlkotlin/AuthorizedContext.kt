@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.`graphql-kotlin`
+package com.example.graphqlkotlin
 
-import com.expediagroup.graphql.examples.server.ktor.schema.models.User
+import com.example.schema.models.User
 import com.expediagroup.graphql.generator.execution.GraphQLContext
 
 /**
