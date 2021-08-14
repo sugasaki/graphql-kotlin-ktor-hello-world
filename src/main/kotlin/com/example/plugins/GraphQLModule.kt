@@ -14,21 +14,18 @@
  * limitations under the License.
  */
 
-package com.example.graphqlkotlin
+package com.example.plugins
 
+import com.example.graphqlkotlin.KtorServer
 import io.ktor.application.Application
 import io.ktor.application.call
-import io.ktor.application.install
 import io.ktor.http.ContentType
 import io.ktor.response.respondText
-import io.ktor.routing.Routing
 import io.ktor.routing.get
 import io.ktor.routing.post
 import io.ktor.routing.routing
 
 fun Application.graphQLModule() {
-    install(Routing)
-
     routing {
         post("graphql") {
             KtorServer().handle(this.call)
