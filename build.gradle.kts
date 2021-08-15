@@ -2,7 +2,6 @@ val ktor_version: String by project
 val kotlin_version: String by project
 val logback_version: String by project
 val graphql_kotlin_server_version: String by project
-val jackson_version: String by project
 
 plugins {
     application
