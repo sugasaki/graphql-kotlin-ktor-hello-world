@@ -20,12 +20,11 @@ repositories {
 }
 
 dependencies {
-    implementation("io.ktor:ktor-server-core:$ktor_version")
-    implementation("io.ktor:ktor-server-cio:$ktor_version")
-    implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("io.ktor:ktor-jackson:$ktor_version")
+    implementation("io.ktor:ktor-server-core:$ktor_version")
+    implementation("io.ktor:ktor-server-netty:$ktor_version")
+    implementation("ch.qos.logback:logback-classic:$logback_version")
 
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:$jackson_version")
     implementation("com.expediagroup:graphql-kotlin-server:$graphql_kotlin_server_version")
 
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
